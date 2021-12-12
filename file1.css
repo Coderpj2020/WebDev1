@@ -1,0 +1,76 @@
+body{
+    background-color: aliceblue;}
+    h1{
+        color:white;
+        border:1px solid powderblue;
+        margin:20px;
+        padding:15px;
+    }
+    p{
+        color:black;
+        /* border:2px solid powderblue; */
+        /* margin:20px; */
+        padding:5px;
+        } 
+a{
+    color:white;
+}
+a:link{
+    color:white;
+    background-color:red;
+    text-decoration:none;
+    display:inline-block;
+    text-align:center;
+}
+a:visited{
+    color:pink;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover{
+    color:red;
+    background-color:green;
+    text-decoration:underline;
+}
+a:active{
+    color:yellow;
+    background-color:transparent;
+    text-decoration:underline;
+}
+img{
+    width: 300px;
+    height: 300px;
+    
+}
+body{
+    background-image:url("https://wallpaperaccess.com/full/1251284.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-size: cover;
+}
+table,th,td {
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* float:left; */
+    margin: 2px;
+    padding: 5px;
+     margin-left:2%; 
+}
+th:visited{
+    color:pink;
+    background-color:transparent;
+    text-decoration:none;
+}
+th:hover{
+    color:red;
+    background-color:green;
+    text-decoration:underline;
+}
+th:active{
+    color:yellow;
+    background-color:transparent;
+    text-decoration:underline;}
+     table{
+        align: center;
+    } 
